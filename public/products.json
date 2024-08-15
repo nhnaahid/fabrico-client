@@ -1,0 +1,422 @@
+[
+    {
+        "name": "Blue Jeans",
+        "category": "Pant",
+        "image": "https://i.ibb.co/Fw0X28c/jeans.webp",
+        "description": "Classic blue jeans with a comfortable casual fit.",
+        "price": 1599,
+        "ratings": 4.5,
+        "brand": "Ecstasy",
+        "date": "1/15/2024, 10:15:30 AM"
+    },
+    {
+        "name": "Black Formal Pant",
+        "category": "Pant",
+        "image": "https://i.ibb.co/bz80b5C/formal-pant.webp",
+        "description": "Elegant black formal pants with a slim fit, perfect for office wear.",
+        "price": 2499,
+        "ratings": 4.7,
+        "brand": "GentlePark",
+        "date": "2/10/2024, 11:00:00 AM"
+    },
+    {
+        "name": "Khaki Casual Pant",
+        "category": "Pant",
+        "image": "https://i.ibb.co/h7NZSnG/jeans2.webp",
+        "description": "Comfortable khaki pants with a relaxed fit for casual outings.",
+        "price": 1299,
+        "ratings": 4.3,
+        "brand": "Dorjibari",
+        "date": "2/25/2024, 12:45:00 PM"
+    },
+    {
+        "name": "White Formal Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/hywMMhK/formal-shirt.webp",
+        "description": "White slim fit formal shirt, perfect for professional settings.",
+        "price": 1999,
+        "ratings": 4.8,
+        "brand": "Ecstasy",
+        "date": "3/5/2024, 9:30:00 AM"
+    },
+    {
+        "name": "Red Striped Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/vJzWBPh/casual-shirts.webp",
+        "description": "Red casual shirt with a regular fit and a striped pattern.",
+        "price": 899,
+        "ratings": 4.2,
+        "brand": "GentlePark",
+        "date": "3/20/2024, 2:20:00 PM"
+    },
+    {
+        "name": "Navy Blue Full Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/r6YKNxP/full-tshirts.jpg",
+        "description": "Slim fit full sleeve t-shirt in navy blue, great for a casual look.",
+        "price": 1299,
+        "ratings": 4.4,
+        "brand": "Dorjibari",
+        "date": "4/15/2024, 3:30:00 PM"
+    },
+    {
+        "name": "Grey Short Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/MSpJsjn/t-shirts2.webp",
+        "description": "Comfortable grey short sleeve t-shirt with a casual fit.",
+        "price": 299,
+        "ratings": 4.1,
+        "brand": "Ecstasy",
+        "date": "5/1/2024, 4:00:00 PM"
+    },
+    {
+        "name": "Blue Casual Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/XDYYN4D/polo.webp",
+        "description": "Stylish blue casual polo with a regular fit, perfect for any occasion.",
+        "price": 590,
+        "ratings": 4.6,
+        "brand": "GentlePark",
+        "date": "5/10/2024, 5:10:00 PM"
+    },
+    {
+        "name": "White Striped Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/vQCSXkD/polo2.webp",
+        "description": "Slim fit white polo with blue stripes, ideal for a sporty look.",
+        "price": 799,
+        "ratings": 4.7,
+        "brand": "Dorjibari",
+        "date": "5/15/2024, 6:45:00 PM"
+    },
+    {
+        "name": "Black Casual Pant",
+        "category": "Pant",
+        "image": "https://i.ibb.co/h7NZSnG/jeans2.webp",
+        "description": "Versatile black casual pants with a regular fit for everyday wear.",
+        "price": 1099,
+        "ratings": 4.4,
+        "brand": "Ecstasy",
+        "date": "5/20/2024, 7:30:00 PM"
+    },
+    {
+        "name": "Green Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/FBX63dQ/casual-shirts2.webp",
+        "description": "Green slim fit casual shirt for a smart and trendy look.",
+        "price": 1499,
+        "ratings": 4.5,
+        "brand": "GentlePark",
+        "date": "6/1/2024, 8:45:00 AM"
+    },
+    {
+        "name": "Maroon Full Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/r6YKNxP/full-tshirts.jpg",
+        "description": "Comfortable maroon full sleeve t-shirt with a regular fit.",
+        "price": 350,
+        "ratings": 4.2,
+        "brand": "Dorjibari",
+        "date": "6/10/2024, 9:00:00 AM"
+    },
+    {
+        "name": "Brown Jeans",
+        "category": "Pant",
+        "image": "https://i.ibb.co/h7NZSnG/jeans2.webp",
+        "description": "Slim fit brown jeans with a modern design.",
+        "price": 2099,
+        "ratings": 4.6,
+        "brand": "Ecstasy",
+        "date": "6/22/2024, 10:30:00 AM"
+    },
+    {
+        "name": "White Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/hywMMhK/formal-shirt.webp",
+        "description": "Classic white casual shirt with a regular fit for daily wear.",
+        "price": 1199,
+        "ratings": 4.3,
+        "brand": "GentlePark",
+        "date": "7/1/2024, 11:45:00 AM"
+    },
+    {
+        "name": "Black Striped Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/vQCSXkD/polo2.webp",
+        "description": "Casual fit black polo with subtle white stripes.",
+        "price": 1089,
+        "ratings": 4.5,
+        "brand": "Dorjibari",
+        "date": "7/5/2024, 12:15:00 PM"
+    },
+    {
+        "name": "Grey Short Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/MSpJsjn/t-shirts2.webp",
+        "description": "Slim fit grey short sleeve t-shirt for a sleek look.",
+        "price": 580,
+        "ratings": 4.4,
+        "brand": "Ecstasy",
+        "date": "7/10/2024, 1:25:00 PM"
+    },
+    {
+        "name": "Navy Blue Jeans",
+        "category": "Pant",
+        "image": "https://i.ibb.co/Fw0X28c/jeans.webp",
+        "description": "Regular fit navy blue jeans with a durable fabric.",
+        "price": 1899,
+        "ratings": 4.6,
+        "brand": "GentlePark",
+        "date": "7/15/2024, 2:40:00 PM"
+    },
+    {
+        "name": "Red Casual Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/XDYYN4D/polo.webp",
+        "description": "Slim fit red casual polo for a sporty and stylish look.",
+        "price": 650,
+        "ratings": 4.7,
+        "brand": "Dorjibari",
+        "date": "7/20/2024, 3:55:00 PM"
+    },
+    {
+        "name": "Black Full Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/r6YKNxP/full-tshirts.jpg",
+        "description": "Classic black full sleeve t-shirt with a regular fit.",
+        "price": 420,
+        "ratings": 4.2,
+        "brand": "Ecstasy",
+        "date": "8/1/2024, 4:10:00 PM"
+    },
+    {
+        "name": "Blue Striped Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/FBX63dQ/casual-shirts2.webp",
+        "description": "Blue casual shirt with white stripes and a regular fit.",
+        "price": 1399,
+        "ratings": 4.3,
+        "brand": "GentlePark",
+        "date": "8/10/2024, 5:20:00 PM"
+    },
+    {
+        "name": "Blue Jeans",
+        "category": "Pant",
+        "image": "https://i.ibb.co/Fw0X28c/jeans.webp",
+        "description": "Classic blue jeans with a comfortable casual fit.",
+        "price": 1599,
+        "ratings": 4.5,
+        "brand": "Ecstasy",
+        "date": "1/18/2024, 10:15:30 AM"
+    },
+    {
+        "name": "Black Formal Pant",
+        "category": "Pant",
+        "image": "https://i.ibb.co/bz80b5C/formal-pant.webp",
+        "description": "Elegant black formal pants with a slim fit, perfect for office wear.",
+        "price": 1495,
+        "ratings": 4.7,
+        "brand": "GentlePark",
+        "date": "2/11/2024, 11:00:00 AM"
+    },
+    {
+        "name": "Khaki Casual Pant",
+        "category": "Pant",
+        "image": "https://i.ibb.co/h7NZSnG/jeans2.webp",
+        "description": "Comfortable khaki pants with a relaxed fit for casual outings.",
+        "price": 1299,
+        "ratings": 4.3,
+        "brand": "Dorjibari",
+        "date": "2/24/2024, 12:45:00 PM"
+    },
+    {
+        "name": "White Formal Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/hywMMhK/formal-shirt.webp",
+        "description": "White slim fit formal shirt, perfect for professional settings.",
+        "price": 1999,
+        "ratings": 4.8,
+        "brand": "Ecstasy",
+        "date": "3/6/2024, 9:30:00 AM"
+    },
+    {
+        "name": "Red Striped Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/vJzWBPh/casual-shirts.webp",
+        "description": "Red casual shirt with a regular fit and a striped pattern.",
+        "price": 899,
+        "ratings": 4.2,
+        "brand": "GentlePark",
+        "date": "3/25/2024, 2:20:00 PM"
+    },
+    {
+        "name": "Navy Blue Full Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/r6YKNxP/full-tshirts.jpg",
+        "description": "Slim fit full sleeve t-shirt in navy blue, great for a casual look.",
+        "price": 399,
+        "ratings": 4.4,
+        "brand": "Dorjibari",
+        "date": "4/18/2024, 3:30:00 PM"
+    },
+    {
+        "name": "Grey Short Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/MSpJsjn/t-shirts2.webp",
+        "description": "Comfortable grey short sleeve t-shirt with a casual fit.",
+        "price": 250,
+        "ratings": 4.1,
+        "brand": "Ecstasy",
+        "date": "5/10/2024, 4:00:00 PM"
+    },
+    {
+        "name": "Blue Casual Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/XDYYN4D/polo.webp",
+        "description": "Stylish blue casual polo with a regular fit, perfect for any occasion.",
+        "price": 899,
+        "ratings": 4.6,
+        "brand": "GentlePark",
+        "date": "5/11/2024, 5:10:00 PM"
+    },
+    {
+        "name": "White Striped Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/vQCSXkD/polo2.webp",
+        "description": "Slim fit white polo with blue stripes, ideal for a sporty look.",
+        "price": 1250,
+        "ratings": 4.7,
+        "brand": "Dorjibari",
+        "date": "5/19/2024, 6:45:00 PM"
+    },
+    {
+        "name": "Black Casual Pant",
+        "category": "Pant",
+        "image": "https://i.ibb.co/h7NZSnG/jeans2.webp",
+        "description": "Versatile black casual pants with a regular fit for everyday wear.",
+        "price": 1320,
+        "ratings": 4.4,
+        "brand": "Ecstasy",
+        "date": "5/29/2024, 7:30:00 PM"
+    },
+    {
+        "name": "Green Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/FBX63dQ/casual-shirts2.webp",
+        "description": "Green slim fit casual shirt for a smart and trendy look.",
+        "price": 1499,
+        "ratings": 4.5,
+        "brand": "GentlePark",
+        "date": "6/2/2024, 8:45:00 AM"
+    },
+    {
+        "name": "Maroon Full Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/r6YKNxP/full-tshirts.jpg",
+        "description": "Comfortable maroon full sleeve t-shirt with a regular fit.",
+        "price": 850,
+        "ratings": 4.2,
+        "brand": "Dorjibari",
+        "date": "6/9/2024, 9:00:00 AM"
+    },
+    {
+        "name": "Brown Jeans",
+        "category": "Pant",
+        "image": "https://i.ibb.co/h7NZSnG/jeans2.webp",
+        "description": "Slim fit brown jeans with a modern design.",
+        "price": 2199,
+        "ratings": 4.6,
+        "brand": "Ecstasy",
+        "date": "6/23/2024, 10:30:00 AM"
+    },
+    {
+        "name": "White Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/hywMMhK/formal-shirt.webp",
+        "description": "Classic white casual shirt with a regular fit for daily wear.",
+        "price": 1199,
+        "ratings": 4.3,
+        "brand": "GentlePark",
+        "date": "7/3/2024, 11:45:00 AM"
+    },
+    {
+        "name": "Black Striped Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/vQCSXkD/polo2.webp",
+        "description": "Casual fit black polo with subtle white stripes.",
+        "price": 1799,
+        "ratings": 4.5,
+        "brand": "Dorjibari",
+        "date": "7/6/2024, 12:15:00 PM"
+    },
+    {
+        "name": "Grey Short Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/MSpJsjn/t-shirts2.webp",
+        "description": "Slim fit grey short sleeve t-shirt for a sleek look.",
+        "price": 490,
+        "ratings": 4.4,
+        "brand": "Ecstasy",
+        "date": "7/12/2024, 1:25:00 PM"
+    },
+    {
+        "name": "Navy Blue Jeans",
+        "category": "Pant",
+        "image": "https://i.ibb.co/Fw0X28c/jeans.webp",
+        "description": "Regular fit navy blue jeans with a durable fabric.",
+        "price": 1899,
+        "ratings": 4.6,
+        "brand": "GentlePark",
+        "date": "7/17/2024, 2:40:00 PM"
+    },
+    {
+        "name": "Red Casual Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/XDYYN4D/polo.webp",
+        "description": "Slim fit red casual polo for a sporty and stylish look.",
+        "price": 1599,
+        "ratings": 4.7,
+        "brand": "Dorjibari",
+        "date": "7/26/2024, 3:55:00 PM"
+    },
+    {
+        "name": "Black Full Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/r6YKNxP/full-tshirts.jpg",
+        "description": "Classic black full sleeve t-shirt with a regular fit.",
+        "price": 650,
+        "ratings": 4.2,
+        "brand": "Ecstasy",
+        "date": "8/5/2024, 4:10:00 PM"
+    },
+    {
+        "name": "Blue Striped Casual Shirt",
+        "category": "Shirt",
+        "image": "https://i.ibb.co/FBX63dQ/casual-shirts2.webp",
+        "description": "Blue casual shirt with white stripes and a regular fit.",
+        "price": 1399,
+        "ratings": 4.3,
+        "brand": "GentlePark",
+        "date": "8/13/2024, 5:20:00 PM"
+    },
+    {
+        "name": "Red Casual Polo",
+        "category": "Polo",
+        "image": "https://i.ibb.co/XDYYN4D/polo.webp",
+        "description": "Slim fit red casual polo for a sporty and stylish look.",
+        "price": 1599,
+        "ratings": 4.7,
+        "brand": "Dorjibari",
+        "date": "7/14/2024, 3:55:00 PM"
+    },
+    {
+        "name": "Black Full Sleeve T-shirt",
+        "category": "T-Shirt",
+        "image": "https://i.ibb.co/r6YKNxP/full-tshirts.jpg",
+        "description": "Classic black full sleeve t-shirt with a regular fit.",
+        "price": 750,
+        "ratings": 4.2,
+        "brand": "Ecstasy",
+        "date": "8/15/2024, 4:10:00 PM"
+    }
+]
