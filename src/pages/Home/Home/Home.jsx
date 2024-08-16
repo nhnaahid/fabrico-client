@@ -1,10 +1,105 @@
-import React from 'react';
+import PageHeadline from '../PageHeadline/PageHeadline';
 
 const Home = () => {
+
+    const handlePriceChange = (priceRange) => {
+        console.log('Selected Price Range:', priceRange);
+        // Implement filtering logic here
+    };
+
     return (
-        <div>
-            <h1>Homepage</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet earum, eveniet eos maiores quam itaque delectus atque modi omnis, praesentium et repellendus rem veniam inventore odio error? Dolorum similique quas debitis magni quod at rerum, maxime cum amet exercitationem, quaerat mollitia esse animi nemo consequatur nobis ab, nesciunt necessitatibus nisi labore architecto illum voluptate. Distinctio cupiditate exercitationem pariatur quis adipisci commodi corrupti dolores, doloremque, amet omnis, nesciunt ducimus reiciendis voluptas accusantium repudiandae sunt? Explicabo illum officiis cupiditate numquam harum at, vel, sunt fugit rerum quisquam dicta eius eligendi facilis, temporibus ipsum ab ratione odio accusamus qui perferendis. Minus a error sint voluptatum voluptates expedita soluta modi placeat, incidunt laboriosam magnam cum dolor similique rem quas id veritatis aspernatur quidem quis nihil nesciunt et iusto! Molestiae inventore nostrum nemo dolor omnis, ipsam at? Earum vero et nemo molestiae nesciunt accusantium. Tempora omnis ab sit labore, voluptatibus porro facilis similique ullam cum sequi quae debitis numquam et repudiandae reprehenderit doloribus quidem nesciunt ex molestias possimus magnam! Id veniam hic tempora enim odit sit doloribus quaerat quo aut expedita, odio alias repudiandae animi quidem accusamus et praesentium explicabo quisquam tempore cumque dolorem facere corporis obcaecati! Voluptatem repellendus, at illum doloribus illo molestias maiores rem tempore molestiae voluptas est fuga maxime nostrum ipsam, in quisquam voluptatum quidem minus enim eum voluptate vel dolore excepturi quo! Fuga magnam libero delectus! Dignissimos molestiae consectetur magni quaerat, nostrum ullam praesentium cumque, dolorum sit officiis rem sint? Ipsa cupiditate, expedita incidunt numquam iste libero explicabo deleniti, quas laudantium, illum modi! Consectetur laborum quae assumenda, nisi architecto nostrum, quaerat recusandae, officiis perspiciatis quis ipsam sunt eum corporis placeat harum veniam quos? Reiciendis unde tempore molestiae dolorum laudantium quae. Deleniti ullam, incidunt possimus debitis error accusamus, nisi doloremque, nulla nam cupiditate minima! Nemo totam ut eaque eius numquam consequuntur facilis. Mollitia doloremque consequuntur hic nemo voluptatem vel perferendis. Nesciunt eligendi voluptatum quaerat necessitatibus facere corrupti consequuntur blanditiis animi sapiente! Est atque doloribus voluptatibus maxime? Aliquid consequatur non saepe est eum voluptatibus, nostrum obcaecati ipsum nihil unde quo harum suscipit amet ullam placeat iste quam excepturi reiciendis necessitatibus blanditiis rem, cupiditate natus eius? Repellat, reprehenderit ut? Voluptatum delectus facilis nam veritatis! Placeat tenetur soluta hic, et consectetur, temporibus pariatur iure quae quo, eius adipisci doloribus quibusdam repellendus. Ipsam in natus non, adipisci explicabo beatae consequatur sint ut quibusdam ex est. Adipisci dolorem, quisquam quod nobis minus excepturi neque harum eaque deserunt dolores animi vero molestias ipsum molestiae accusamus cupiditate temporibus. Eius, doloremque quod possimus corporis tempore, inventore error corrupti consequatur, eaque repellendus earum quidem soluta blanditiis. Ullam tempora tempore architecto enim corrupti asperiores fugiat, magnam quia natus nihil doloribus sint aperiam atque cum error nostrum illum nam harum officiis doloremque voluptatibus praesentium amet. Neque enim rem, natus, voluptatum repellat nesciunt eaque voluptatibus deserunt dolorum accusamus tenetur inventore eveniet. Temporibus et, eaque, harum ex veniam non reiciendis magnam delectus perferendis accusantium accusamus labore? Maxime in deserunt ducimus distinctio eos amet, unde aliquam sunt voluptatem explicabo ea nulla quos corrupti harum cumque doloremque voluptates ratione tempora alias esse maiores ad recusandae? Quod at aperiam soluta blanditiis adipisci perferendis consectetur laudantium rerum natus! Amet fugiat tempore, inventore ut facilis asperiores necessitatibus aliquid rerum vero culpa harum modi quas eaque ducimus repellat aliquam quasi dolores dicta? Debitis dolorem quibusdam enim tempora sequi consectetur illum hic, quis, est consequatur culpa. Sunt blanditiis dolore voluptatibus cumque unde quis mollitia fuga laudantium alias voluptates deleniti possimus doloribus iusto a, perspiciatis commodi nemo architecto minus repellat officia perferendis, quam officiis nulla? Quos quia mollitia nesciunt qui? Eaque voluptates architecto, nisi sequi ea sit eligendi nobis consequatur veniam perspiciatis suscipit accusantium minima, quod autem ipsa ut, quis exercitationem mollitia quam aperiam aliquid culpa aliquam magnam. Officia dolorem dignissimos veniam, eligendi natus, expedita quae a sint tempora ratione rem ullam laborum consequuntur, blanditiis porro placeat et similique laboriosam sapiente saepe vel ad tempore. Reiciendis voluptatem nihil incidunt quo accusamus assumenda eligendi consectetur deserunt laborum, dicta eum cupiditate nemo nulla repellendus, atque rem architecto tempora unde facere non distinctio recusandae mollitia ducimus quas. Eum cum expedita exercitationem nihil, quas maxime repellendus inventore quibusdam provident veniam odio ducimus, officiis similique nisi reprehenderit ipsam aperiam quos mollitia nobis harum non aliquid sequi? Minima quaerat assumenda dolorum odit! Ad reiciendis et dignissimos? Quod, iusto? Expedita et, iusto aliquam aperiam voluptatibus facere non! Itaque laborum asperiores distinctio deleniti voluptate fuga expedita officia tenetur sapiente sed facilis cumque cum, quod deserunt voluptates. Porro corporis adipisci unde officia quibusdam perferendis ratione hic. Ex voluptas est quos sed provident dolorum deserunt earum rem nostrum sequi itaque consectetur illo rerum voluptate ad fuga quasi hic facere, voluptatum atque saepe odit. Quod ea temporibus corporis autem enim ullam porro totam iste, numquam ab sequi harum iusto vel dolore eius! Officiis labore vero, illum consequuntur dolores ab? Illo adipisci, eius nihil, quisquam voluptatibus perferendis eaque est aliquam ad aut ratione? Eos velit, est consequatur quo quidem porro recusandae quibusdam magni consectetur veritatis nobis aperiam corporis possimus, nisi commodi! Laborum molestias est voluptatibus sint velit adipisci repellat minus, explicabo ratione cupiditate dicta quibusdam dolores aut reprehenderit facere delectus dolorum, non natus autem inventore id perferendis ut! Odit rerum assumenda in iste harum totam sint labore modi officia, temporibus nam eaque aliquam laudantium praesentium ipsam laboriosam eligendi nulla animi necessitatibus quo natus quaerat quam quae! Natus repellendus, explicabo sunt cupiditate pariatur, consequuntur, impedit porro dolore debitis deserunt et? Explicabo ea itaque quos. Laborum adipisci iste debitis iusto recusandae consequatur numquam cupiditate officia. Quod nam ipsam, inventore esse tempore quas harum quos. Voluptatem, a. Tempore necessitatibus inventore perferendis excepturi. Harum quam libero modi quo voluptas nostrum optio mollitia, amet consequuntur voluptatum architecto veniam maiores iste laboriosam dolorum dolorem pariatur illum ab suscipit temporibus ipsam in, ducimus iure earum! Non, fugiat. Molestias reiciendis magni ipsa provident ab. Sit ab soluta repellendus voluptate velit excepturi minus delectus perspiciatis saepe dicta eaque sapiente enim recusandae, blanditiis quisquam numquam tempore nostrum nemo eos temporibus mollitia laboriosam voluptatem inventore id! Nihil, nostrum in! Sit ipsa ut natus dolor esse! Itaque!</p>
+        <div className='text-black'>
+            <PageHeadline></PageHeadline>
+
+            <div className='flex justify-between mt-12 lg:px-5'>
+                {/* sidebar */}
+                <div className='w-1/5 h-screen space-y-3'>
+                    {/* category */}
+                    <div className='bg-gray-100 p-3 rounded-md'>
+                        <h2 className='font-bold border-b pb-2 mb-3'>Category</h2>
+                        <div className='flex items-center gap-2'>
+                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <p>Pant</p>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <p>Shirt</p>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <p>T-Shirt</p>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <p>Polo</p>
+                        </div>
+                    </div>
+
+                    {/* brand */}
+                    <div className='bg-gray-100 p-3 rounded-md'>
+                        <h2 className='font-bold border-b pb-2 mb-3'>Brand</h2>
+                        <div className='flex items-center gap-2'>
+                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <p>Ecstasy</p>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <p>GentlePark</p>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <p>Dorjibari</p>
+                        </div>
+                    </div>
+
+                    {/* price */}
+                    <div className='bg-gray-100 p-3 rounded-md'>
+                        <h2 className='font-bold border-b pb-2 mb-3'>Price Range</h2>
+                        <form className='space-y-2'>
+                            <div className='flex gap-2'>
+                                <p>Min: </p>
+                                <input className='border rounded-md' type="number" name="min" id="" />
+                            </div>
+                            <div className='flex gap-2'>
+                                <p>Max: </p>
+                                <input className='border rounded-md' type="number" name="max" id="" />
+                            </div>
+                        </form>
+                    </div>
+
+                    <div className='w-full border'>
+                        <button className='btn btn-sm rounded-lg border border-emerald-600 w-full bg-gray-100'>Apply</button>
+                    </div>
+                </div>
+
+                {/* main */}
+                <div className='w-3/4'>
+                    {/* search and sort */}
+                    <div className='flex items-center justify-between p-2 bg-base-200 rounded-md'>
+                        <div className='w-full'>
+                            <div className="join w-4/5">
+                                <input className="w-full input input-sm input-bordered join-item" placeholder="Product name" />
+                                <button className="btn btn-sm join-item rounded-r-full bg-white border border-emerald-600">Search</button>
+                            </div>
+                        </div>
+
+                        <div className="flex gap-3 items-baseline justify-center space-y-2 w-4/5 mx-auto text-sm">
+                            <label className="font-semibold">Sort By:</label>
+                            <select name="sort" defaultValue="default" className="border border-emerald-600 rounded-md px-2">
+                                <option disabled value="default" >Default</option>
+                                <option value="lo2hi">Low to High</option>
+                                <option value="hi2lo">High to Low</option>
+                                <option value="newest">Newest First</option>
+                                <option value="oldest">Oldest First</option>
+                            </select>
+                        </div>
+                    </div>
+                    {/* cards */}
+                    <div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

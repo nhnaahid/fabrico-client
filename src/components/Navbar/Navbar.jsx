@@ -1,8 +1,22 @@
 import { Link, NavLink } from "react-router-dom";
 import './Navbar.css'
 import SmallButton from "../Buttons/SmallButton";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const handleLogout = () => {
+        logOut()
+            .then(() => {
+                toast.success('User Logged Out.')
+            })
+            .catch(error => {
+                toast.error(error.message);
+            })
+    }
+
     const navLink = <>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/add-products">Add Products</NavLink>
@@ -42,7 +56,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to="/login"><SmallButton name="Login"></SmallButton></Link>
+                {
+                    user ? <button onClick={handleLogout} className="btn btn-sm rounded-lg border border-emerald-600">Logout</button> : <Link to="/login"><SmallButton name="Login"></SmallButton></Link>
+                }
             </div>
         </nav>
     );
