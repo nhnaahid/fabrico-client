@@ -3,6 +3,7 @@ import SmallButton from "../../components/Buttons/SmallButton";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
     const { logIn, googleSignIn } = useContext(AuthContext);
@@ -37,6 +38,9 @@ const Login = () => {
 
     return (
         <div className="w-full md:w-3/5 border py-5 mx-auto flex items-center justify-center">
+            <Helmet>
+                <title>Fabrico | Login</title>
+            </Helmet>
             <form onSubmit={handleSubmit} className="grid w-4/5 mx-auto gap-2">
                 <h1 className="font-bold text-xl">Account Login</h1>
                 <div className="divider"></div>

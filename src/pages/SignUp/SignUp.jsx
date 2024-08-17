@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet-async";
 
 const SignUp = () => {
     const { createUser, googleSignIn } = useContext(AuthContext);
@@ -47,6 +48,9 @@ const SignUp = () => {
 
     return (
         <div className="w-full md:w-3/5 py-5 border mx-auto flex items-center justify-center">
+            <Helmet>
+                <title>Fabrico | Signup</title>
+            </Helmet>
             <form onSubmit={handleSubmit} className="grid w-4/5 mx-auto gap-2">
                 <h1 className="font-bold text-xl">Account Registration</h1>
                 <div className="divider"></div>

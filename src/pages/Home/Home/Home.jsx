@@ -3,6 +3,7 @@ import PageHeadline from '../PageHeadline/PageHeadline';
 import ProductCard from '../ProductCard/ProductCard';
 import { RxCross1 } from 'react-icons/rx';
 import { RiMenu3Fill } from 'react-icons/ri';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     const [open, setOpen] = useState(false);
@@ -59,6 +60,9 @@ const Home = () => {
 
     return (
         <div className='text-black'>
+            <Helmet>
+                <title>Fabrico | Home</title>
+            </Helmet>
             <div className='flex justify-end md:hidden'>
                 <div onClick={() => setOpen(!open)} className='w-fit'>
                     {
