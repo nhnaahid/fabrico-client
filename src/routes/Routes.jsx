@@ -11,7 +11,8 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home></Home>
+                element: <Home></Home>,
+                loader: () => fetch('https://fabrico-server.vercel.app/productCount')
             },
             {
                 path: '/login',

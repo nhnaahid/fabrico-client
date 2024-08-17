@@ -23,7 +23,7 @@ const SignUp = () => {
         // console.log(userInfo);
         createUser(email, password)
             .then(result => {
-                console.log(result.user);
+                // console.log(result.user);
                 navigate('/');
                 toast.success('User Registration Successful.');
             })
@@ -35,12 +35,12 @@ const SignUp = () => {
     const handleGoogleSignUp = () => {
         googleSignIn()
             .then(result => {
-                console.log(result.user);
+                // console.log(result.user);
                 toast.success('User Registration Successful.')
                 navigate('/');
             })
             .catch(error => {
-                console.log(error);
+                // console.log(error);
                 toast.error(error.message);
             })
     }

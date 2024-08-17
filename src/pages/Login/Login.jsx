@@ -15,7 +15,7 @@ const Login = () => {
         const password = form.password.value;
         logIn(email, password)
             .then(result => {
-                console.log(result.user);
+                // console.log(result.user);
                 toast.success('User Login Successful.')
                 navigate('/');
             })
@@ -26,7 +26,7 @@ const Login = () => {
     const handleGoogleLogin = () => {
         googleSignIn()
             .then(result => {
-                console.log(result.user);
+                // console.log(result.user);
                 toast.success('User Login Successful.')
                 navigate('/');
             })
