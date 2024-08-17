@@ -6,6 +6,7 @@ import { RiMenu3Fill } from 'react-icons/ri';
 
 const Home = () => {
     const [open, setOpen] = useState(false);
+    const [searchText, setSearchText] = useState('');
     // const [isChecked, setIsChecked] = useState(false);
     // const [category, setCategory] = useState([]);
     // const [brand, setBrand] = useState([])
@@ -14,6 +15,14 @@ const Home = () => {
         brand: [],
         price: []
     });
+
+    const handleSearch = () => {
+        const inputText = document.getElementById('search').value;
+        // console.log(inputText);
+        setSearchText(inputText);
+        // console.log(searchText);
+    }
+
     const handlePriceRange = e => {
         e.preventDefault();
         const minPrice = e.target.min.value;
@@ -60,19 +69,19 @@ const Home = () => {
                     <div className='bg-gray-100 p-3 rounded-md'>
                         <h2 className='font-bold border-b pb-2 mb-3'>Category</h2>
                         <div className='flex items-center gap-2'>
-                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <input onChange={handleCheckBox} name='category' value="Pant" type="checkbox" className="checkbox checkbox-xs rounded-md" />
                             <p>Pant</p>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <input onChange={handleCheckBox} name='category' value="Shirt" type="checkbox" className="checkbox checkbox-xs rounded-md" />
                             <p>Shirt</p>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <input onChange={handleCheckBox} name='category' value="T-Shirt" type="checkbox" className="checkbox checkbox-xs rounded-md" />
                             <p>T-Shirt</p>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <input onChange={handleCheckBox} name='category' value="Polo" type="checkbox" className="checkbox checkbox-xs rounded-md" />
                             <p>Polo</p>
                         </div>
                     </div>
@@ -81,15 +90,15 @@ const Home = () => {
                     <div className='bg-gray-100 p-3 rounded-md'>
                         <h2 className='font-bold border-b pb-2 mb-3'>Brand</h2>
                         <div className='flex items-center gap-2'>
-                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <input onChange={handleCheckBox} name='brand' value="Ecstasy" type="checkbox" className="checkbox checkbox-xs rounded-md" />
                             <p>Ecstasy</p>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <input onChange={handleCheckBox} name='brand' value="GentlePark" type="checkbox" className="checkbox checkbox-xs rounded-md" />
                             <p>GentlePark</p>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <input type="checkbox" className="checkbox checkbox-xs rounded-md" />
+                            <input onChange={handleCheckBox} name='brand' value="Dorjibari" type="checkbox" className="checkbox checkbox-xs rounded-md" />
                             <p>Dorjibari</p>
                         </div>
                     </div>
@@ -97,7 +106,7 @@ const Home = () => {
                     {/* price */}
                     <div className='bg-gray-100 p-3 rounded-md'>
                         <h2 className='font-bold border-b pb-2 mb-3'>Price Range</h2>
-                        <form className='space-y-2'>
+                        <form onSubmit={handlePriceRange} className='space-y-2'>
                             <div className='flex gap-2'>
                                 <p>Min: </p>
                                 <input className='w-4/5 lg:w-1/2 border rounded-md' type="number" name="min" id="" required />
@@ -182,8 +191,8 @@ const Home = () => {
                     <div className='flex flex-col md:flex-row items-center justify-between p-2 bg-base-200 rounded-md gap-3 md:gap-0'>
                         <div className='w-full'>
                             <div className="join w-4/5">
-                                <input className="w-full input input-sm input-bordered join-item" placeholder="Product name" />
-                                <button className="btn btn-sm join-item rounded-r-full bg-white border border-emerald-600">Search</button>
+                                <input className="w-full input input-sm input-bordered join-item" placeholder="Product name" id='search' />
+                                <button onClick={handleSearch} className="btn btn-sm join-item rounded-r-full bg-white border border-emerald-600">Search</button>
                             </div>
                         </div>
 
@@ -200,7 +209,7 @@ const Home = () => {
                     </div>
                     {/* cards */}
                     <div>
-                        <ProductCard filterInfo={filterInfo}></ProductCard>
+                        <ProductCard filterInfo={filterInfo} searchText={searchText}></ProductCard>
                     </div>
                 </div>
             </div>
