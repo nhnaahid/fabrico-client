@@ -3,14 +3,14 @@ import useAxiosPublic from '../../../hooks/useAxiosPublic';
 import { useQuery } from '@tanstack/react-query';
 import OneCard from './OneCard';
 
-const ProductCard = ({ filterInfo, searchText }) => {
+const ProductCard = ({ filterInfo, searchText, sortBy }) => {
 
     console.log("From checkbox: ", filterInfo);
 
     const axiosPublic = useAxiosPublic();
 
     const { data: products = [] } = useQuery({
-        queryKey: ['products', filterInfo, searchText],
+        queryKey: ['products', filterInfo, searchText, sortBy],
 
         queryFn: async () => {
             const res = await axiosPublic.get('/products', {
@@ -19,7 +19,8 @@ const ProductCard = ({ filterInfo, searchText }) => {
                     brand: filterInfo.brand.join(','),
                     minPrice: filterInfo.price[0],
                     maxPrice: filterInfo.price[1],
-                    search: searchText
+                    search: searchText,
+                    sort: sortBy
                 }
             })
             return res.data;

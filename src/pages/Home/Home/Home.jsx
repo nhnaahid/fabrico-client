@@ -7,6 +7,7 @@ import { RiMenu3Fill } from 'react-icons/ri';
 const Home = () => {
     const [open, setOpen] = useState(false);
     const [searchText, setSearchText] = useState('');
+    const [sortBy, setSortBy] = useState('');
     // const [isChecked, setIsChecked] = useState(false);
     // const [category, setCategory] = useState([]);
     // const [brand, setBrand] = useState([])
@@ -15,6 +16,11 @@ const Home = () => {
         brand: [],
         price: []
     });
+
+    const handleSortBy = e => {
+        const sort = e.target.value;
+        setSortBy(sort);
+    }
 
     const handleSearch = () => {
         const inputText = document.getElementById('search').value;
@@ -198,10 +204,10 @@ const Home = () => {
 
                         <div className="flex gap-3 items-baseline md:justify-center space-y-2 w-full md:w-4/5 mx-auto text-sm">
                             <label className="font-semibold">Sort By:</label>
-                            <select name="sort" defaultValue="default" className="border border-emerald-600 rounded-md px-2">
+                            <select onChange={handleSortBy} name="sort" defaultValue="default" className="border border-emerald-600 rounded-md px-2">
                                 <option disabled value="default" >Default</option>
-                                <option value="lo2hi">Low to High</option>
-                                <option value="hi2lo">High to Low</option>
+                                <option value="lo2hi">Price Low to High</option>
+                                <option value="hi2lo">Price High to Low</option>
                                 <option value="newest">Newest First</option>
                                 <option value="oldest">Oldest First</option>
                             </select>
@@ -209,7 +215,7 @@ const Home = () => {
                     </div>
                     {/* cards */}
                     <div>
-                        <ProductCard filterInfo={filterInfo} searchText={searchText}></ProductCard>
+                        <ProductCard filterInfo={filterInfo} searchText={searchText} sortBy={sortBy}></ProductCard>
                     </div>
                 </div>
             </div>

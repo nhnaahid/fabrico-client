@@ -2,7 +2,7 @@ import React from 'react';
 import { CiStar } from 'react-icons/ci';
 
 const OneCard = ({ product }) => {
-    const { name, category, image, description, price, ratings, brand } = product;
+    const { name, category, image, description, price, ratings, brand,date } = product;
     // console.log(brand);
     return (
         <div className="card card-compact bg-base-200 hover:shadow-2xl duration-500">
@@ -26,6 +26,7 @@ const OneCard = ({ product }) => {
                 </div>
                 <p>{description}</p>
                 <p className='font-bold text-red-400 text-md'>BDT <span>{price}</span></p>
+                <p>{date}</p>
                 <div className="card-actions flex justify-between my-3">
                     <button className="btn btn-sm btn-success btn-outline w-2/5">Add To Cart</button>
                     <button className="btn btn-sm btn-success btn-outline w-2/5">Buy Now</button>
