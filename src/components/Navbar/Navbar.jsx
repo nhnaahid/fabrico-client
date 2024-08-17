@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to="/add-products">Add Products</NavLink>
     </>
     return (
-        <nav className="navbar bg-base-100 font-bold shadow-lg px-2 fixed max-w-screen-2xl">
+        <nav className="navbar bg-base-100 font-bold shadow-lg px-2 fixed max-w-screen-2xl z-20">
             <div className="navbar-start">
                 {/* small screen */}
                 <div className="dropdown">

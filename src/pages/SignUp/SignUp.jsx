@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router-dom";
-import SmallButton from "../../components/Buttons/SmallButton";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { toast } from "react-toastify";
